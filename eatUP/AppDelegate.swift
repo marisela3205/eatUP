@@ -12,6 +12,18 @@ import CoreData
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
+    let questions = ["How much protein does your body get per day?", "How much fiber does your body get per day?", "How much calcium does your body get per day? Calcium is found in dairy, leafy greens, fish, and nuts.", "How much unsaturated fat does your body get per day?"]
+    
+    let answers = [
+        ["< 40g", "40-60g", "> 60g", "I'm not sure"],
+        ["< 20g", "20-40g", "> 40g", "I'm not sure"],
+        ["Low amount", "Just right", "High amount", "I'm not sure"],
+        ["< 25g", "25-45g", "> 45g", "I'm not sure"]
+    ]
+    
+    var userAnswers = [String]()
+    var currentQuestion = 0
+    
     var window: UIWindow?
 
 

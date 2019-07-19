@@ -13,6 +13,8 @@
 		180276B422DF9E1D0055880C /* eatUP.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 180276B222DF9E1D0055880C /* eatUP.xcdatamodeld */; };
 		180276B622DF9E1F0055880C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 180276B522DF9E1F0055880C /* Assets.xcassets */; };
 		180276B922DF9E1F0055880C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 180276B722DF9E1F0055880C /* LaunchScreen.storyboard */; };
+		18FE5DA622E2120000BEE34A /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FE5DA522E2120000BEE34A /* QuizViewController.swift */; };
+		18FE5DA822E234F700BEE34A /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FE5DA722E234F700BEE34A /* ResultsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		180276B522DF9E1F0055880C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		180276B822DF9E1F0055880C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		180276BA22DF9E1F0055880C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18FE5DA522E2120000BEE34A /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
+		18FE5DA722E234F700BEE34A /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		180276AA22DF9E1D0055880C /* eatUP */ = {
 			isa = PBXGroup;
 			children = (
+				18FE5DA522E2120000BEE34A /* QuizViewController.swift */,
 				180276AB22DF9E1D0055880C /* AppDelegate.swift */,
 				180276AF22DF9E1D0055880C /* Main.storyboard */,
 				180276AD22DF9E1D0055880C /* ViewController.swift */,
@@ -63,6 +68,7 @@
 				180276B722DF9E1F0055880C /* LaunchScreen.storyboard */,
 				180276BA22DF9E1F0055880C /* Info.plist */,
 				180276B222DF9E1D0055880C /* eatUP.xcdatamodeld */,
+				18FE5DA722E234F700BEE34A /* ResultsViewController.swift */,
 			);
 			path = eatUP;
 			sourceTree = "<group>";
@@ -141,6 +147,8 @@
 				180276AE22DF9E1D0055880C /* ViewController.swift in Sources */,
 				180276B422DF9E1D0055880C /* eatUP.xcdatamodeld in Sources */,
 				180276AC22DF9E1D0055880C /* AppDelegate.swift in Sources */,
+				18FE5DA822E234F700BEE34A /* ResultsViewController.swift in Sources */,
+				18FE5DA622E2120000BEE34A /* QuizViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
